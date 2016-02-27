@@ -1,0 +1,28 @@
+/* CSS Document */
+
+body {
+	background:  url('../images/forest.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+
+#title {
+
+	position: absolute;
+	bottom: 45%;
+	left: 25%;
+	width: 50%;
+	text-align: center;
+	border: none;
+}
+
+
+#title h1 a:link {
+
+	color: white;
+	text-decoration: none;
+}
+
+
+

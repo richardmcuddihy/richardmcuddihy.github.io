@@ -1,0 +1,43 @@
+/* CSS Document */
+
+body {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	background-color: lightblue;
+    font-style: oblique;
+}
+
+
+
+h1 {
+	text-align: center;
+	border-bottom: 1px solid #710001;
+}
+
+#one {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#two {
+	text-transform: lowercase;
+	font-size: 24px;
+}
+
+#three {
+	font-size: 24px;
+}
+
+#four {
+	font-size: 24px;
+}
+
+#five {
+	font-size: 24px;
+}
+
+
+
+
+
+
+
