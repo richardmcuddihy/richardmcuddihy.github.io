@@ -1,8 +1,8 @@
 /* CSS Document */
 
-background {
+body {
 	
-	background-image: url(../images/space.jpg) no repeat center center fixed;
+	background: url('../images/space.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -13,6 +13,8 @@ h1 {
 	
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	text-align: center;
-	
+	color: white;
 	
 }
+
+
