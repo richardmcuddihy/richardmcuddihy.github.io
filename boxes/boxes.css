@@ -33,7 +33,7 @@
 	
 #four, #five {
 		background-color: #6C7F1A;
-		width: 300px;
+		width: 49%;
 		float: left;
 		padding: 50px 10px 20px 20px;/*this notation refers to top and bottom, left and right values, respectively*/
 		text-align: center;

@@ -1,5 +1,14 @@
 /* CSS Document */
 
+background {
+	
+	background-image: url(../images/space.jpg) no repeat center center fixed;
+	background-size: cover;
+}
+
+
+
+
 h1 {
 	
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
