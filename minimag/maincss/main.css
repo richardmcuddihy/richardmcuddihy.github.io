@@ -31,9 +31,10 @@ h2 {
 
 body { 
 	
-	background: url() no-repeat center center fixed;
-	background-size: cover;
+    background-image: url("../../images/controllers.jpg");
+	background-size: repeat;
 	font-family: 'Lato', sans-serif;
+	color:#FFFFFF;
 	padding: auto;
 	margin: auto;
 }
@@ -51,8 +52,8 @@ div #power{
 
  nav {  
       height: 40px;  
-      width: 50%;  
-      background: #333;  
+      width: 30%;  
+      background: #5CC5C8;  
       font-size: 11pt;  
       font-family: 'Montserrat', sans-serif;  
       font-weight: bold;  
