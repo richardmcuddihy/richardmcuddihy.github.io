@@ -255,13 +255,6 @@ MAIN COLUMAS CLASSES
 CONTACT FORM CLASSS
 -------------------------------------------------*/
 
-.contact-form { background:#f4f8f6; padding:30px; width:440px; float:left;}
-.contact-form label {display: block; padding:10px 0 10px 0;}
-.contact-form label span {display: block; color:#939191;font-size:14px; float:left; width:80px; text-align:left; padding:5px 20px 0 0;}
-.contact-form .input_text {padding:10px 10px;width:318px;background:#ffffff;border:#e1ece7 1px solid; color:#939191;}
-.contact-form .message{padding:10px 10px;width:318px; background:#ffffff; border:#e1ece7 1px solid;overflow:hidden;height:150px; color:#939191; font-size:14px;}
-.contact-form .button{padding:8px;background:#1f7872; color:#ffffff; text-transform:uppercase; font-family:'Oswald', sans-serif;border:0px solid;margin-left:100px;margin-top:20px;}
-
 .address { float:left; width:370px; margin-left:30px;}
 .address .panel { border:none; color:#9b9e9a}
 .address .panel .title h1 {  color:#d13f31; padding-bottom:10px;}
