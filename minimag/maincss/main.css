@@ -40,7 +40,7 @@ body {
     background-image: url("../../images/controllers.jpg");
 	background-size: repeat;
 	font-family: 'Lato', sans-serif;
-	color:#FFFFFF;
+	color:#003BCA;
 	padding: auto;
 	margin: auto;
 }
@@ -184,6 +184,22 @@ nav a#pull {
 .banner h1{ padding:10px; float:right; background:#1a202c; text-transform:uppercase; color:#ffffff;  font-size:30px; font-weight:normal; position:absolute; top:130px; right:0;}
 .banner h2{ padding:10px; float:right; background:#ffffff; text-transform:uppercase; color:#1a202c;  font-size:22px; font-weight:normal; font-family: 'Oswald', sans-serif;position:absolute; top:195px; right:0;}
 
+/*-------------------------------------------------
+GENERAL CLASSES
+-------------------------------------------------*/
+.mar-top30{margin-top:30px;}
+.mar-top20{margin-top:20px;}
+.mar-right30{margin-right:30px;}
+.mar-bottom20{margin-bottom:20px;}
+.float-left{ float:left;}
+.float-right{ float:right;}
+.clearing { clear:both;}
+.panel{ background:#ffffff;}
+.title{}
+.content{}
+.button a{text-decoration:none; display:block; width:70px; height:30px; background:#1f7872; color:#ffffff; font-family: 'Oswald', sans-serif; line-height:30px; text-align:center; text-transform:uppercase;}
+.button a:hover{ background:#d13f31;}
+.page{ width:960px; margin:0 auto;overflow:hidden;}
 /*-------------------------------------------------
 MAIN COLUMAS CLASSES
 -------------------------------------------------*/
