@@ -232,26 +232,3 @@ CONTACT FORM CLASSS
 .address .panel { border:none; color:#9b9e9a}
 .address .panel .title h1 {  color:#d13f31; padding-bottom:10px;}
 .address .panel .content p span { color:#9b9e9a;}
-
-
-/*-------------------------------------------------
-FOOTER CLASSES
--------------------------------------------------*/
-.primary-footer{ overflow:hidden; margin:0 auto;}
-.footer-wrap{ background:#1a202c; overflow:hidden; padding-top:20px; margin-top:20px; padding-bottom:20px;}
-.footer{width:960px; margin:0 auto;}
-.footer .panel{float:left; background:none; width:300px;}
-.footer .panel .title h1{ color:#ffffff;}
-.footer .panel .content{padding-top:25px;}
-.footer .panel .content p{ color:#435059;}
-.footer .panel .content .button a{ margin-top:30px; background:#d13f31; width:70px; height:30px;}
-.footer .panel .content .button a:hover{ margin-top:30px; background:#1f7872;}
-.footer .panel .content ul li{ list-style:url(../images/arrow.png) inside; border-bottom:#273042 solid 1px; line-height:35px;}
-.footer .panel .content ul li a{text-decoration:none; color:#435059;}
-.footer .panel .content ul li a:hover{color:#d13f31;}
-.footer .panel .content ul li.-no-border-bottom{border-bottom:none;}
-.copyright-wrap{ background:#1f7872; overflow:hidden; padding:40px 0px 40px 0px;}
-.copyright-wrap .panel{width:960px; margin:0 auto; background:none;}
-.copyright-wrap .panel .content p{ color:#ffffff; text-align:center; font-size:12px;}
-.copyright-wrap .panel .content p a{ text-decoration:none; color:#ffffff;}
-.copyright-wrap .panel .content p a:hover{ color:#1a202c;}
