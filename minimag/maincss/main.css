@@ -5,7 +5,12 @@ p {
 	padding: 1;
 }	
 	
+.logo{
 	
+	margin: 10px;
+}
+
+
 #power {
 	width:auto;
 	text-align:center;
@@ -13,8 +18,8 @@ p {
 
 header, #banner {
 	height: 250px;
-	background: #D0D0D0;
 	text-align: center;
+	margin: 0 20%;
 	}
 
 .col {
@@ -23,7 +28,10 @@ header, #banner {
 
 h1 {
 	font-size: 3em;
-	padding: 1em 0;
+	padding-top: 1em;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
 }
 
 h2 {
@@ -40,17 +48,12 @@ body {
     background-image: url("../../images/controllers.jpg");
 	background-size: repeat;
 	font-family: 'Lato', sans-serif;
-	color: #004DC5;
+	color: #0030AF;
 	padding: auto;
+	outline: #FCFCFC;
 	margin: auto;
 }
-
-h1 {
 	
-	text-align:center;
-	font-family: 'Montserrat', sans-serif;
-	
-}
 
 div #power{
 	text-align:center;
@@ -58,7 +61,7 @@ div #power{
 
  nav {  
       height: 40px;  
-      width: 100%;  
+      width: 30%;  
       background: #5CC5C8;  
       font-size: 11pt;  
       font-family: 'Montserrat', sans-serif;  
@@ -74,7 +77,7 @@ div #power{
   }  
   nav li {  
      display: inline;  
-     float: left;  
+     float: left; 
      list-style-type: none;  
  }
 
@@ -87,8 +90,8 @@ div #power{
   clear: both;  
 }  
 .clearfix {  
-  *zoom: 1;  
-}  
+  *zoom: 1; 
+}
 
 nav a {  
   color: #fff;  
@@ -181,17 +184,20 @@ nav a#pull {
 }  
 
 #slideshow {
-    position:relative;
-    width: 100%;
+   position:relative;
+   width: 100%;
    height: 100%;
-   max-width: 800px;
-   margin: 1% auto;
+   max-width: 2160px;
+   margin: 3% auto;
    padding-bottom: 20px;
    padding-top: 10px;
+   
+ 
+   
   }
 
 #slideshow div {
-   position:absolute;
+   position: absolute;
    	width: 100%;
 	height: 100%;
     top:0;
@@ -199,6 +205,7 @@ nav a#pull {
     z-index:8;
     opacity:0.0;
     background-color: #FFF;
+	
 }
 
 #slideshow div.active {
@@ -218,9 +225,11 @@ nav a#pull {
     margin-bottom: 10px;
 }
 
-/*-------------------------------------------------
-GENERAL CLASSES
--------------------------------------------------*/
+.ss-container {
+	
+}
+
+
 .mar-top30{margin-top:20px;}
 .mar-top20{margin-top:20px;}
 .mar-right30{margin-right:30px;}
@@ -234,9 +243,8 @@ GENERAL CLASSES
 .button a{text-decoration:none; display:block; width:70px; height:30px; background:#1f7872; color:#ffffff; font-family: 'Oswald', sans-serif; line-height:30px; text-align:center; text-transform:uppercase;}
 .button a:hover{ background:#d13f31;}
 .page{ width:960px; margin:0 auto;overflow:hidden;}
-/*-------------------------------------------------
-MAIN COLUMAS CLASSES
--------------------------------------------------*/
+
+
 .primary-col{ width:960px; overflow:hidden; float:left;}
 .primary-col p{ padding-bottom:20px;}
 .generic{ float:left; overflow:hidden; width:100%;}
@@ -251,22 +259,36 @@ MAIN COLUMAS CLASSES
 .block .content h2{ padding-bottom:10px;}
 .block .content p{ padding-bottom:20px;}
 
-/*-------------------------------------------------
-CONTACT FORM CLASSS
--------------------------------------------------*/
 
-.address { float:left; width:370px; margin-left:30px;}
-.address .panel { border:none; color:#9b9e9a}
-.address .panel .title h1 {  color:#d13f31; padding-bottom:10px;}
-.address .panel .content p span { color:#9b9e9a;}
+.address { 
+	text-align: center; 
+	width:370px; 
+	margin:50px;
+}
+.address .panel { 
+	border:none; 
+	color:#9b9e9a
+}
+.address .panel .title h1 {  
+	color:#d13f31; 
+	padding-bottom:10px;
+}
+.address .panel .content p span { 
+	color:#9b9e9a;
+}
+.panel{
+	margin: 50px;
+	padding: 10px;
+}
+
 
 .btn {
   background: #abddff;
-  background-image: -webkit-linear-gradient(top, #abddff, #2980b9);
-  background-image: -moz-linear-gradient(top, #abddff, #2980b9);
-  background-image: -ms-linear-gradient(top, #abddff, #2980b9);
-  background-image: -o-linear-gradient(top, #abddff, #2980b9);
-  background-image: linear-gradient(to bottom, #abddff, #2980b9);
+  background-image: -webkit-linear-gradient(top, #50FFB5, #007305);
+  background-image: -moz-linear-gradient(top, #50FFB5, #007305);
+  background-image: -ms-linear-gradient(top, #50FFB5, #007305);
+  background-image: -o-linear-gradient(top, #50FFB5, #007305);
+  background-image: linear-gradient(to bottom, #50FFB5, #007305);
   -webkit-border-radius: 21;
   -moz-border-radius: 21;
   border-radius: 21px;
@@ -289,13 +311,50 @@ CONTACT FORM CLASSS
   background-image: linear-gradient(to bottom, #ff9191, #bd0000);
   text-decoration: none;
 }
+	
 
-
-/*
-.w3-third { 
-    width: 300px;
-    padding: 25px;
-    border: 25px solid #008E9F;
-    margin: 25px;
+.block {
+	width:auto;
+	padding: 0px;
+	border: 1px #FF0004;
+	margin: 50px;
+	margin-top: 40%;
+	background:#D0D0D0;
+	
 }
--*/
+
+.color {
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+}
+
+
+
+
+.footer {
+  margin: 25px 25px 30px;
+  position:relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  color:#BC2B2D;
+}
+
+.games {
+	color:#005F9B;
+	animation:ease-in;
+	appearance:menu;
+}
+
+
+
+
+
+
+
+
+
+
