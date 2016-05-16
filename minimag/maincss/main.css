@@ -32,7 +32,10 @@ h1 {
 	text-align:center;
 	font-family: 'Montserrat', sans-serif;
 	margin:0;
+<<<<<<< HEAD
 	text-shadow:1px 1px 0px #FFFFFF;
+=======
+>>>>>>> origin/master
 }
 
 h2 {
@@ -49,7 +52,11 @@ body {
     background-image: url("../../images/controllers.jpg");
 	background-size: repeat;
 	font-family: 'Lato', sans-serif;
+<<<<<<< HEAD
 	color: #0073A3;
+=======
+	color: #0030AF;
+>>>>>>> origin/master
 	padding: auto;
 	outline: #FCFCFC;
 	margin: auto;
@@ -63,8 +70,13 @@ div #power{
 
  nav {  
       height: 40px;  
+<<<<<<< HEAD
       width: 37%;  
       background: #0073A3;  
+=======
+      width: 30%;  
+      background: #5CC5C8;  
+>>>>>>> origin/master
       font-size: 11pt;  
       font-family: 'Montserrat', sans-serif;  
       font-weight: bold;  
@@ -76,6 +88,7 @@ div #power{
       margin: 0 auto;  
       width: 500px;  
       height: 40px;  
+<<<<<<< HEAD
   } 
   
   nav li {
@@ -99,6 +112,13 @@ div #power{
      float: right; 
 	 margin-bottom:5%;
  
+=======
+  }  
+  nav li {  
+     display: inline;  
+     float: left; 
+     list-style-type: none;  
+>>>>>>> origin/master
  }
 
  .clearfix:before,  
@@ -207,7 +227,11 @@ nav a#pull {
    position:relative;
    width: 100%;
    height: 100%;
+<<<<<<< HEAD
    max-width: 1080px;
+=======
+   max-width: 2160px;
+>>>>>>> origin/master
    margin: 3% auto;
    padding-bottom: 20px;
    padding-top: 10px;
@@ -246,6 +270,7 @@ nav a#pull {
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 #ss-container {
 	margin-top: 100px;
 }
@@ -277,9 +302,25 @@ nav a#pull {
 .panel{ 
 	background:#ffffff;}
 
+=======
+.ss-container {
+	
+}
+
+
+.mar-top30{margin-top:20px;}
+.mar-top20{margin-top:20px;}
+.mar-right30{margin-right:30px;}
+.mar-bottom20{margin-bottom:20px;}
+.float-left{ float:left;}
+.float-right{ float:right;}
+.clearing { clear:both;}
+.panel{ background:#ffffff;}
+>>>>>>> origin/master
 .title{}
 
 .content{}
+<<<<<<< HEAD
 
 .button a{
 	text-decoration:none; 
@@ -359,6 +400,26 @@ width:960px;
 .block .content p{ 
 	padding-bottom:20px;
 	}
+=======
+.button a{text-decoration:none; display:block; width:70px; height:30px; background:#1f7872; color:#ffffff; font-family: 'Oswald', sans-serif; line-height:30px; text-align:center; text-transform:uppercase;}
+.button a:hover{ background:#d13f31;}
+.page{ width:960px; margin:0 auto;overflow:hidden;}
+
+
+.primary-col{ width:960px; overflow:hidden; float:left;}
+.primary-col p{ padding-bottom:20px;}
+.generic{ float:left; overflow:hidden; width:100%;}
+.generic .panel{ padding:30px 30px 30px 30px;}
+.generic .title h1{ padding-bottom:20px;}
+.generic .content{overflow:hidden;}
+.generic .content h2{ padding-bottom:15px;}
+.block{width:310px;}
+.block .panel{padding:50px 30px 30px 30px;}
+.block .title h1{ padding-bottom:20px;}
+.block .content img{ padding-bottom:20px;}
+.block .content h2{ padding-bottom:10px;}
+.block .content p{ padding-bottom:20px;}
+>>>>>>> origin/master
 
 
 .address { 
@@ -385,11 +446,19 @@ width:960px;
 
 .btn {
   background: #abddff;
+<<<<<<< HEAD
   background-image: -webkit-linear-gradient(top, #50FFB5, #169e3c);
   background-image: -moz-linear-gradient(top, #50FFB5, #169e3c);
   background-image: -ms-linear-gradient(top, #50FFB5, #169e3c);
   background-image: -o-linear-gradient(top, #50FFB5, #169e3c);
   background-image: linear-gradient(to bottom, #50FFB5, #169e3c);
+=======
+  background-image: -webkit-linear-gradient(top, #50FFB5, #007305);
+  background-image: -moz-linear-gradient(top, #50FFB5, #007305);
+  background-image: -ms-linear-gradient(top, #50FFB5, #007305);
+  background-image: -o-linear-gradient(top, #50FFB5, #007305);
+  background-image: linear-gradient(to bottom, #50FFB5, #007305);
+>>>>>>> origin/master
   -webkit-border-radius: 21;
   -moz-border-radius: 21;
   border-radius: 21px;
@@ -419,7 +488,11 @@ width:960px;
 	padding: 0px;
 	border: 1px #FF0004;
 	margin: 50px;
+<<<<<<< HEAD
 	margin-top: 30%;
+=======
+	margin-top: 40%;
+>>>>>>> origin/master
 	background:#D0D0D0;
 	
 }
@@ -428,10 +501,17 @@ width:960px;
 	font-family: 'Montserrat', sans-serif;
 	color: #000000;
 }
+<<<<<<< HEAD
 
 
 
 
+=======
+
+
+
+
+>>>>>>> origin/master
 .footer {
   margin: 25px 25px 30px;
   position:relative;
