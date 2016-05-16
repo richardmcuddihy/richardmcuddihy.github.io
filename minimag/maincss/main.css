@@ -5,7 +5,12 @@ p {
 	padding: 1;
 }	
 	
+.logo{
 	
+	margin: 10px;
+}
+
+
 #power {
 	width:auto;
 	text-align:center;
@@ -13,8 +18,8 @@ p {
 
 header, #banner {
 	height: 250px;
-	background: #D0D0D0;
 	text-align: center;
+	margin: 0 20%;
 	}
 
 .col {
@@ -23,7 +28,11 @@ header, #banner {
 
 h1 {
 	font-size: 3em;
-	padding: 1em 0;
+	padding-top: 1em;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	text-shadow:1px 1px 0px #FFFFFF;
 }
 
 h2 {
@@ -40,26 +49,22 @@ body {
     background-image: url("../../images/controllers.jpg");
 	background-size: repeat;
 	font-family: 'Lato', sans-serif;
-	color: #004DC5;
+	color: #0073A3;
 	padding: auto;
+	outline: #FCFCFC;
 	margin: auto;
 }
-
-h1 {
 	
-	text-align:center;
-	font-family: 'Montserrat', sans-serif;
-	
-}
 
 div #power{
 	text-align:center;
+	
 }
 
  nav {  
       height: 40px;  
-      width: 100%;  
-      background: #5CC5C8;  
+      width: 37%;  
+      background: #0073A3;  
       font-size: 11pt;  
       font-family: 'Montserrat', sans-serif;  
       font-weight: bold;  
@@ -69,13 +74,31 @@ div #power{
   nav ul {  
       padding: 0;  
       margin: 0 auto;  
-      width: 400px;  
+      width: 500px;  
       height: 40px;  
-  }  
-  nav li {  
-     display: inline;  
-     float: left;  
-     list-style-type: none;  
+  } 
+  
+  nav li {
+	float: left;
+	display: inline-block;  
+  }
+  
+  nav li a.selected {
+	  background-color: #efcf24;  
+	  }
+   
+  #navleft {  
+
+     float: left; 
+	 margin-bottom:50px;
+
+ }
+ 
+  #navright {  
+  
+     float: right; 
+	 margin-bottom:5%;
+ 
  }
 
  .clearfix:before,  
@@ -87,8 +110,8 @@ div #power{
   clear: both;  
 }  
 .clearfix {  
-  *zoom: 1;  
-}  
+  *zoom: 1; 
+}
 
 nav a {  
   color: #fff;  
@@ -110,7 +133,7 @@ nav li:last-child a {
 } 
 
 nav a:hover, nav a:active {  
-    background-color: #8c99a4;  
+    background-color: #efcf24;  
 }
 
 nav a#pull {  
@@ -181,17 +204,20 @@ nav a#pull {
 }  
 
 #slideshow {
-    position:relative;
-    width: 100%;
+   position:relative;
+   width: 100%;
    height: 100%;
-   max-width: 800px;
-   margin: 1% auto;
+   max-width: 1080px;
+   margin: 3% auto;
    padding-bottom: 20px;
    padding-top: 10px;
+   
+ 
+   
   }
 
 #slideshow div {
-   position:absolute;
+   position: absolute;
    	width: 100%;
 	height: 100%;
     top:0;
@@ -199,11 +225,13 @@ nav a#pull {
     z-index:8;
     opacity:0.0;
     background-color: #FFF;
+	
 }
 
 #slideshow div.active {
     z-index:10;
     opacity:1.0;
+
 }
 
 #slideshow div.last-active {
@@ -218,55 +246,150 @@ nav a#pull {
     margin-bottom: 10px;
 }
 
-/*-------------------------------------------------
-GENERAL CLASSES
--------------------------------------------------*/
-.mar-top30{margin-top:20px;}
-.mar-top20{margin-top:20px;}
-.mar-right30{margin-right:30px;}
-.mar-bottom20{margin-bottom:20px;}
-.float-left{ float:left;}
-.float-right{ float:right;}
-.clearing { clear:both;}
-.panel{ background:#ffffff;}
+#ss-container {
+	margin-top: 100px;
+}
+
+
+
+
+.mar-top30{
+	margin-top:20px;
+	}
+.mar-top20{
+	margin-top:20px;
+	}
+.mar-right30{
+	margin-right:30px;
+	}
+.mar-bottom20{
+	margin-bottom:20px;
+	}
+.float-left{ 
+	float:left;
+}
+.float-right{ 
+	float:right;
+	}
+.clearing { 
+	clear:both;
+	}
+.panel{ 
+	background:#ffffff;}
+
 .title{}
+
 .content{}
-.button a{text-decoration:none; display:block; width:70px; height:30px; background:#1f7872; color:#ffffff; font-family: 'Oswald', sans-serif; line-height:30px; text-align:center; text-transform:uppercase;}
-.button a:hover{ background:#d13f31;}
-.page{ width:960px; margin:0 auto;overflow:hidden;}
-/*-------------------------------------------------
-MAIN COLUMAS CLASSES
--------------------------------------------------*/
-.primary-col{ width:960px; overflow:hidden; float:left;}
-.primary-col p{ padding-bottom:20px;}
-.generic{ float:left; overflow:hidden; width:100%;}
-.generic .panel{ padding:30px 30px 30px 30px;}
-.generic .title h1{ padding-bottom:20px;}
-.generic .content{overflow:hidden;}
-.generic .content h2{ padding-bottom:15px;}
-.block{width:310px;}
-.block .panel{padding:50px 30px 30px 30px;}
-.block .title h1{ padding-bottom:20px;}
-.block .content img{ padding-bottom:20px;}
-.block .content h2{ padding-bottom:10px;}
-.block .content p{ padding-bottom:20px;}
 
-/*-------------------------------------------------
-CONTACT FORM CLASSS
--------------------------------------------------*/
+.button a{
+	text-decoration:none; 
+	display:block; 
+	width:70px; 
+	height:30px; 
+	background:#1f7872;
+	color:#ffffff; 
+	font-family: 'Oswald', sans-serif; 
+	line-height:30px; 
+	text-align:center; 
+	text-transform:uppercase;
+	}
+	
+.button a:hover{
+	 background:#d13f31;
+	 }
+	 
+.page{ 
+width:960px;
+ margin:0 auto;
+ overflow:hidden;
+ }
+ 
 
-.address { float:left; width:370px; margin-left:30px;}
-.address .panel { border:none; color:#9b9e9a}
-.address .panel .title h1 {  color:#d13f31; padding-bottom:10px;}
-.address .panel .content p span { color:#9b9e9a;}
+.primary-col{ 
+	width:960px;
+	overflow:hidden;
+	float:left;
+	}
+	
+.primary-col p{ 
+	padding-bottom:20px;
+	}
+	
+.generic{ 
+	float:left; 
+	overflow:hidden; 
+	width:100%;
+	}
+	
+.generic .panel{ 
+	padding:30px 30px 30px 30px;
+	}
+	
+.generic .title h1{
+	 padding-bottom:20px;
+	 }
+	 
+.generic .content{
+	overflow:hidden;
+	}
+	
+.generic .content h2{ 
+	padding-bottom:15px;
+}
+.block{
+	width:310px;
+	}
+	
+.block .panel{
+	padding:50px 30px 30px 30px;
+	}
+	
+.block .title h1{ 
+	padding-bottom:20px;
+	}
+	
+.block .content img{ 
+	padding-bottom:20px;
+	}
+	
+.block .content h2{
+	padding-bottom:10px;
+	}
+	
+.block .content p{ 
+	padding-bottom:20px;
+	}
+
+
+.address { 
+	text-align: center; 
+	width:370px; 
+	margin:50px;
+}
+.address .panel { 
+	border:none; 
+	color:#9b9e9a
+}
+.address .panel .title h1 {  
+	color:#d13f31; 
+	padding-bottom:10px;
+}
+.address .panel .content p span { 
+	color:#9b9e9a;
+}
+.panel{
+	margin: 50px;
+	padding: 10px;
+}
+
 
 .btn {
   background: #abddff;
-  background-image: -webkit-linear-gradient(top, #abddff, #2980b9);
-  background-image: -moz-linear-gradient(top, #abddff, #2980b9);
-  background-image: -ms-linear-gradient(top, #abddff, #2980b9);
-  background-image: -o-linear-gradient(top, #abddff, #2980b9);
-  background-image: linear-gradient(to bottom, #abddff, #2980b9);
+  background-image: -webkit-linear-gradient(top, #50FFB5, #169e3c);
+  background-image: -moz-linear-gradient(top, #50FFB5, #169e3c);
+  background-image: -ms-linear-gradient(top, #50FFB5, #169e3c);
+  background-image: -o-linear-gradient(top, #50FFB5, #169e3c);
+  background-image: linear-gradient(to bottom, #50FFB5, #169e3c);
   -webkit-border-radius: 21;
   -moz-border-radius: 21;
   border-radius: 21px;
@@ -282,20 +405,57 @@ CONTACT FORM CLASSS
 
 .btn:hover {
   background: #ff9191;
-  background-image: -webkit-linear-gradient(top, #ff9191, #bd0000);
-  background-image: -moz-linear-gradient(top, #ff9191, #bd0000);
-  background-image: -ms-linear-gradient(top, #ff9191, #bd0000);
-  background-image: -o-linear-gradient(top, #ff9191, #bd0000);
-  background-image: linear-gradient(to bottom, #ff9191, #bd0000);
+  background-image: -webkit-linear-gradient(top, #ff9191, #be0316);
+  background-image: -moz-linear-gradient(top, #ff9191, #be0316);
+  background-image: -ms-linear-gradient(top, #ff9191, #be0316);
+  background-image: -o-linear-gradient(top, #ff9191, #be0316);
+  background-image: linear-gradient(to bottom, #ff9191, #be0316);
   text-decoration: none;
 }
+	
 
-
-/*
-.w3-third { 
-    width: 300px;
-    padding: 25px;
-    border: 25px solid #008E9F;
-    margin: 25px;
+.block {
+	width:auto;
+	padding: 0px;
+	border: 1px #FF0004;
+	margin: 50px;
+	margin-top: 30%;
+	background:#D0D0D0;
+	
 }
--*/
+
+.color {
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+}
+
+
+
+
+.footer {
+  margin: 25px 25px 30px;
+  position:relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  color:#BC2B2D;
+}
+
+.games {
+	color:#005F9B;
+	animation:ease-in;
+	appearance:menu;
+}
+
+
+
+
+
+
+
+
+
+
